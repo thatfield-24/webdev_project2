@@ -16,7 +16,11 @@ nav a {
 nav a:hover {
 	background-color: green;
 }
-	
+
+p {
+	font-size: 1.5vw;
+}
+
 h1 {
 	float: center;
 	font-size: 3vw;
@@ -25,6 +29,7 @@ h1 {
 
 h3 {
   text-transform: uppercase;
+	font-size: 2vw;
 }
 
 img,video {
@@ -37,6 +42,7 @@ img,video {
 	max-height: 25%;
 	max-width: 25%;
 }
+
 .sidebyside{
   display: inline;
 	margin: 0px;
@@ -44,9 +50,12 @@ img,video {
 
 .center {
   text-align: center;
-	
 }
 
 .selected {
 	background-color: green;
+}
+
+.captions {
+  font-size: 1vw;
 }
