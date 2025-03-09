@@ -23,6 +23,10 @@ p {
 	font-size: 1.5vw;
 }
 
+body {
+  background-color: gray;
+}
+
 h1 {
 	text-align: left;
 	font-size: 3.5vw;
@@ -81,7 +85,7 @@ li{
 }
 
 .homeh1 {
-	font-size: 24px;
+	font-size: 40px;
 }
 
 .homep {
@@ -160,4 +164,14 @@ li{
 
 .event-title {
 	font-size: 1.5vw;
+}
+
+.container{
+	padding: 32px 24px;
+  box-shadow: 0px 5px 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+	background-color: white;
 }
