@@ -141,6 +141,7 @@ li{
   display: flex;
   flex-direction: column;
   background-color: white;
+  margin: 5px;
 }
 
 /* About Me Styling */
