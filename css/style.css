@@ -1,72 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap');
 
 nav {
-	text-align: center;
-	background-color: black;
-	padding: 16px;
-	height: auto;
+  text-align: center;
+  background-color: black;
+  padding: 16px;
+  height: auto;
 }
 
 nav a {
-	text-decoration: none;
-	padding: 16px;
-	color: white;
-	font-size: 2vw;
-	font-family: "Big Shoulders Stencil", serif;
+  text-decoration: none;
+  padding: 16px;
+  color: white;
+  font-size: 2vw;
+  font-family: "Big Shoulders Stencil", serif;
 }
 
 nav a:hover {
-	background-color: green;
+  background-color: green;
 }
 
 p {
-	font-size: 1.5vw;
+  font-size: 1.5vw;
 }
 
 body {
   background-color: gray;
+  font-family: "Courier New", monospace;
 }
 
 h1 {
-	text-align: left;
-	font-size: 3.5vw;
-	font-family: "Courier New", monospace;
+  text-align: left;
+  font-size: 3.5vw;
 }
 
 h2 {
-	text-align: center;
+  text-align: center;
   font-size: 3vw;	
 }
 
 h3 {
   text-transform: uppercase;
-	font-size: 2vw;
+  font-size: 2vw;
 }
 
 h4 {
-	font-size: 1.5vw;
-	display: inline-table;
-	margin: -5px 0px;
+  font-size: 1.5vw;
+  display: inline-table;
+  margin: -5px 0px;
 }
 
 img,video {
-	display: block;
-	margin: auto;
+  display: block;
+  margin: auto;
   height: auto;
   width: auto;
-	min-height: 12.5%;
-	min-width: 12.5%;
-	max-height: 25%;
-	max-width: 25%;
+  min-height: 12.5%;
+  min-width: 12.5%;
+  max-height: 25%;
+  max-width: 25%;
+  border-radius: 10px;
 }
 
 body {
-	max-width: 1400px;
-	margin: 10px;
+  max-width: 1400px;
+  margin: 10px;
 }
 
 li{
-	font-size: 1.5vw;
+  font-size: 1.5vw;
 }
 
 .center {
@@ -74,22 +75,33 @@ li{
 }
 
 .selected {
-	background-color: green;
+  background-color: green;
 }
 
+.container{
+  padding: 32px 24px;
+  box-shadow: 0px 5px 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+/* Home Page Styling */
 .homeimg {
-	height: 300px;
+  height: 300px;
   width: 500px;
-	max-height: 300px;
-	max-width: 500px;
+  max-height: 300px;
+  max-width: 500px;
 }
 
 .homeh1 {
-	font-size: 40px;
+  font-size: 40px;
 }
 
 .homep {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 .homea {
@@ -98,14 +110,15 @@ li{
 
 .personalhistory {
   outline-style: solid;
-	outline-color: lightblue;
-	outline-width: 5px;
-	padding: 5px;
-	border: black;
-	border-style: solid;
-	border-width: 2px;
+  outline-color: lightblue;
+  outline-width: 5px;
+  padding: 5px;
+  border: black;
+  border-style: solid;
+  border-width: 2px;
 }	
-	
+
+/* Resume Styling */
 .classes {
   font-style: italic;
 }
@@ -119,6 +132,11 @@ li{
   text-decoration: underline;
 }
 
+.resume {
+  font-family: "Times New Roman", serif;
+}
+
+/* About Me Styling */
 .captions {
   font-size: 1.25vw;
 }
@@ -127,9 +145,9 @@ li{
   position: relative;
   padding: 20px;
 }
-
+/* Timeline CSS */
 .timeline::before {
-	/* Creates a line to have timeline events on */
+/* Creates a line to have timeline events on */
   content: "";
   position: absolute;
   top: 0;
@@ -146,7 +164,7 @@ li{
 }
 
 .timeline-event::before {
-	/* Creates a bullet market at the timeline event*/
+/* Creates a bullet market at the timeline event*/
   content: "";
   position: absolute;
   top: 10px; 
@@ -159,19 +177,9 @@ li{
 
 .event-date {
   font-weight: bold;
-	margin: -5px 0px;
+  margin: -5px 0px;
 }
 
 .event-title {
-	font-size: 1.5vw;
-}
-
-.container{
-	padding: 32px 24px;
-  box-shadow: 0px 5px 20px;
-  border: 2px solid black;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-	background-color: white;
+  font-size: 1.5vw;
 }
