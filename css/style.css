@@ -12,7 +12,7 @@ nav a {
   padding: 16px;
   color: white;
   font-size: 2vw;
-  font-family: "Big Shoulders Stencil", serif;
+  font-family: "Big Shoulders Stencil", "Garamond", serif;
 }
 
 nav a:hover {
