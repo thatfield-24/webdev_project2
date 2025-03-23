@@ -60,7 +60,8 @@ img,video {
   max-height: 25%;
   max-width: 25%;
   border-radius: 10px;
-  border-widtH: 10px;
+  border-width: 2px;
+  border-style: solid
 }
 
 body {
