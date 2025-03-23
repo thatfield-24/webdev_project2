@@ -147,6 +147,7 @@ li{
   flex-direction: column;
   background-color: white;
   margin: 5px;
+  text-align: left;
 }
 
 /* About Me Styling */
