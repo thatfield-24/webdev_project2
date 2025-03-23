@@ -26,6 +26,7 @@ p {
 body {
   background-color: gray;
   font-family: "Courier New", monospace;
+  text-align: center;
 }
 
 h1 {
@@ -59,6 +60,7 @@ img,video {
   max-height: 25%;
   max-width: 25%;
   border-radius: 10px;
+  border-widtH: 10px;
 }
 
 body {
